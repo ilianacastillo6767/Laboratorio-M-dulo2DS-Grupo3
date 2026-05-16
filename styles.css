@@ -40,9 +40,9 @@ fondo */
 
 /* Estilos para los elementos menu*/
 ul {
-list-style-type: none;
+list-style-type: none; /* Elimina los puntos de la lista */
 text-align:left;
-margin-right: 3rem;
+margin-left: 3rem; 
 }
 
 /*elementos de la lista del menu*/
