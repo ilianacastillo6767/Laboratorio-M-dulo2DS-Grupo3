@@ -83,16 +83,6 @@ ul li {
 }
 
 nav ul {
-    display: flex !important;           
-    justify-content: center !important; 
-    list-style-type: none !important;   
-    padding: 0 !important;
-    margin: 20px 0 !important;
-}
-/* ==========================================
-   1. EL MENÚ DE ARRIBA (HORIZONTAL)
-   ========================================== */
-nav ul {
     display: flex !important;
     justify-content: center !important;
     list-style-type: none !important;
@@ -112,42 +102,6 @@ nav ul li a {
     text-transform: capitalize;
 }
 
-/* ==========================================
-   2. LOS PUNTOS DE ABAJO (LISTA DE SKINCARE)
-   ========================================== */
-.lista-consejos {
-    display: block !important;
-    text-align: left !important;
-    max-width: 600px;
-    margin: 30px auto !important;
-    padding-left: 20px !important;
-}
-
-.lista-consejos li {
-    display: list-item !important;
-    list-style-type: disc !important;
-    margin-bottom: 12px !important;
-    color: #35d3c6;
-}
-nav ul {
-    display: flex !important;
-    justify-content: center !important;
-    list-style-type: none !important;
-    padding: 0 !important;
-    margin: 20px 0 !important;
-}
-
-nav ul li {
-    display: inline-block !important;
-    margin: 0 15px !important;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fffdfd; 
-    font-weight: bold;
-    text-transform: capitalize;
-}
 .lista-consejos {
     display: block !important;
     text-align: left !important;
