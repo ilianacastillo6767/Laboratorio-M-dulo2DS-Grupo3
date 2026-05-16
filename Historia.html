@@ -1,66 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo
+ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode,
+aparecerian codigos antiguos -->
 <html lang="es">
-    <link rel="stylesheet" href="styles.css">
-    <header id="mi-encabezado">
-        <title>Historia del Maquillaje</title>
-        <nav>
- <ul>
-    
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de
+la página-->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Encabezado, el valor atributo id invoca a una funcion del archivo style.css
+para dar el formato del menu -->
+<header id="mi-encabezado">
+
+<title>CURSO HTML</title>
+<!--Creacion del menú utilizando Nav-->
+<nav>
 <ul>
 <li><a href="index.html">Inicio</a></li>
-<li><a href="consejos.html">consejos</a></li>
-<li><a href="historia.html">Historia</a></li>
-<li><a href="cuido.html">Importancia</a></li>
+<li><a href="about.html">Acerca de </a></li>
+<li><a href="contact.html">Contacto</a></li>
+</ul>
 </nav>
-        
-     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff0f5;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
-            color: #c2185b;
-        }
- .historia {
-            background-color: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        strong {
-            color: #d81b60;
-        }
-    </style>
-</head>
+
+<!--Texto del encabezado-->
+<h1>Curso de HTML</h1>
+<p>Acerca de</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo
+style.css-->
 <body>
 
-    <h1>Historia del Maquillaje</h1>
+<main>
 
-    <div class="historia">
-        <p>
-            Desde hace miles de años, el maquillaje ha sido parte importante de la vida humana,
-            pero no siempre se ha usado de la misma manera.
-        </p>
+<!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
+estan especificados en el archivo style.css*-->
+<section class="contenido">
+<h2> <span style="background-color:rgb(208, 209, 245);" ;>Acerca
+de...</span>
+<tr><td> <hr>
+</hr></h2>
+<p>
+La historia del maquillaje se remonta a miles de años atrás y ha evolucionado junto con las diferentes culturas y sociedades. Desde la antigüedad, el maquillaje no solo se utilizaba para resaltar la belleza, sino también con fines religiosos, sociales y culturales.
 
-        <p>
-            En el <strong>Antiguo Egipto</strong>, las personas usaban <strong>mucho maquillaje</strong>.
-            Se pintaban los ojos con un polvo negro llamado kohl y utilizaban colores verdes.
-              No solo era por belleza, también creían que protegía del sol.
-        </p>
+En el Antiguo Egipto, hombres y mujeres usaban maquillaje para delinear sus ojos con sustancias oscuras como el kohl. Además de ser considerado un símbolo de belleza, también creían que protegía los ojos del sol y de enfermedades. Los egipcios utilizaban perfumes, aceites y colores minerales para decorar el rostro y el cuerpo.
 
-        <p>
-            En <strong>Grecia y Roma</strong>, el maquillaje era más <strong>suave y natural</strong>.
-            Se utilizaban polvos para aclarar la piel y un poco de color en los labios.
-        </p>
+En Grecia y Roma, el maquillaje era utilizado principalmente por las mujeres de clase alta. La piel blanca representaba elegancia y riqueza, por lo que aplicaban polvos para aclarar el rostro y tintes naturales para labios y mejillas. Sin embargo, algunos productos eran dañinos porque contenían sustancias tóxicas como plomo.
 
-        <p>
-            Durante la <strong>Edad Media</strong>, casi no se usaba maquillaje.
-            Muchas personas pensaban que no era correcto, por lo que predominaba
-            una apariencia <strong>natural y sencilla</strong>.
-        </p>
+Durante la Edad Media, el maquillaje perdió popularidad en Europa debido a la influencia de la Iglesia, ya que se relacionaba con la vanidad. Aun así, las personas seguían buscando una apariencia de piel pálida como símbolo de nobleza.
+
+En el Renacimiento y siglos posteriores, el maquillaje volvió a tomar importancia. Los rostros blancos, los labios rojos y los peinados elaborados eran tendencia entre la realeza y la alta sociedad. En esta época comenzaron a desarrollarse nuevos cosméticos y técnicas de belleza.
+
+En el siglo XX, el maquillaje tuvo un gran crecimiento gracias al cine, la moda y la televisión. Cada década presentó estilos diferentes: labios rojos y ojos oscuros en los años 20, elegancia clásica en los años 50 y colores llamativos en los años 80. Además, surgieron importantes empresas de cosméticos que hicieron los productos más accesibles para todas las personas.
+
+Actualmente, el maquillaje es una forma de expresión personal y artística. Existen productos para diferentes tipos de piel, estilos y preferencias, y las redes sociales han influido mucho en las nuevas tendencias y técnicas de maquillaje.</p>
+
+</td></tr>
+
+</section>
+</main>
+
+<!--Pie de pagina-->
+<!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar
+el formato del pie de pagina-->
+<div class="footer">Derechos reservados © 2026 Alondra Turcio</div>
+
+<!--Invoca al archivo script.js que contiene la funcion que controla el
+comportamiento del menu-->
+<script src="script.js"></script>
+</body>
+</html>
