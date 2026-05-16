@@ -5,7 +5,7 @@ background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
 background-position: center; /* Centra la imagen en el encabezado */
 height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
 
-color: #fdfcfc; /* Color del texto en el encabezado para asegurar la legibilidad */
+color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-orientation: upright;
 text-align: center; /* Alinea el contenido al centro del encabezado */
 padding: 20px; /* Espacio de relleno interno para el contenido */
@@ -29,7 +29,7 @@ font-size: 25px; /* Tamaño de fuente del texto del encabezado */
 nav {
 background-color: rgba(255, 255, 255, 0);
 padding: 20px;
-position: right; /* Posiciona el menú en la parte superior de la página */
+position: fixed; /* Posiciona el menú en la parte superior de la página */
 top: 0;
 left: 0;
 width: 100%;
@@ -40,9 +40,9 @@ fondo */
 
 /* Estilos para los elementos menu*/
 ul {
-list-style-type: none; /* Elimina los puntos de la lista */
-text-align:right;
-margin-left: 3rem; 
+list-style-type: none;
+text-align: right;
+margin-right: 3rem;
 }
 
 /*elementos de la lista del menu*/
@@ -53,7 +53,7 @@ margin-right: 30px; /* Espacio entre elementos del menú */
 
 a {
 text-decoration: none;
-color: #fffdfd; /* Color del texto del menú */
+color: #d40cd4; /* Color del texto del menú */
 font-weight: bold;
 }
 
@@ -61,6 +61,7 @@ font-weight: bold;
 a:hover {
 color: #ff9900; /* Cambia el color al pasar el mouse por encima */
 }
+
 /*CONFIGURACION DEL BODY*/
 body {
 /*configura los margenes de la página*/
@@ -69,50 +70,24 @@ margin-left: 0px;
 margin-right: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
-ul{
-    display: block;
-    text-align: left;
-    max-width: 650px; 
-    margin: 20px auto; 
+
+/*CONFIGURACION DEL CONTENIDO*/
+.contenido {
+/* configura el color, tamaño de fuente y alineación del texto en el cuerpo de la
+página */
+color: #000000;
+font-size: 20px;
+padding: 5%;
+text-align:justify;
+
+font-family: Arial, Helvetica, sans-serif;
 }
 
-ul li {
-    margin-bottom: 10px; 
-    display:list-item;
-    list-style-type: disc;
-}
-
-nav ul {
-    display: flex !important;
-    justify-content: center !important;
-    list-style-type: none !important;
-    padding: 0 !important;
-    margin: 20px 0 !important;
-}
-
-nav ul li {
-    display: inline-block !important;
-    margin: 0 15px !important;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fffdfd; 
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
-.lista-consejos {
-    display: block !important;
-    text-align: left !important;
-    max-width: 600px;
-    margin: 30px auto !important;
-    padding-left: 20px !important;
-}
-
-.lista-consejos li {
-    display: list-item !important;
-    list-style-type: disc !important;
-    margin-bottom: 12px !important;
-    color: #35d3c6;
+.footer {
+background-color: rgb(14, 144, 196); /* Cambia el color de fondo a azul */
+padding: 10rem;
+color: #fffdfd;
+color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
+text-align: center; /* Alinea el contenido al centro del encabezado */
+font-family: Arial, Helvetica, sans-serif;
 }
