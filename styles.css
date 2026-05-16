@@ -89,39 +89,32 @@ nav ul {
     padding: 0 !important;
     margin: 20px 0 !important;
 }
+/* ==========================================
+   1. EL MENÚ DE ARRIBA (HORIZONTAL)
+   ========================================== */
+nav ul {
+    display: flex !important;
+    justify-content: center !important;
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 20px 0 !important;
+}
 
 nav ul li {
-    display: inline-block !important;   
-    margin: 0 15px !important;          
+    display: inline-block !important;
+    margin: 0 15px !important;
+}
 
 nav ul li a {
     text-decoration: none;
     color: #fffdfd; 
     font-weight: bold;
-    text-transform: capitalize;   
-    
+    text-transform: capitalize;
 }
 
-/*CONFIGURACION DEL CONTENIDO*/
-.contenido {
-/* configura el color, tamaño de fuente y alineación del texto en el cuerpo de la
-página */
-color: #000000;
-font-size: 20px;
-padding: 5%;
-text-align:justify;
-
-font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer {
-background-color: rgb(34, 109, 133); /* Cambia el color de fondo a azul */
-padding: 10rem;
-color: #18a8eb;
-color: #35d3c6; /* Color del texto en el encabezado para asegurar la legibilidad */
-text-align: center; /* Alinea el contenido al centro del encabezado */
-/* Espacio de relleno interno para el contenido */
-
+/* ==========================================
+   2. LOS PUNTOS DE ABAJO (LISTA DE SKINCARE)
+   ========================================== */
 .lista-consejos {
     display: block !important;
     text-align: left !important;
@@ -135,4 +128,37 @@ text-align: center; /* Alinea el contenido al centro del encabezado */
     list-style-type: disc !important;
     margin-bottom: 12px !important;
     color: #35d3c6;
-} /* <-- ESTILO PARA LOS ELEMENT
+}
+nav ul {
+    display: flex !important;
+    justify-content: center !important;
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 20px 0 !important;
+}
+
+nav ul li {
+    display: inline-block !important;
+    margin: 0 15px !important;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfd; 
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.lista-consejos {
+    display: block !important;
+    text-align: left !important;
+    max-width: 600px;
+    margin: 30px auto !important;
+    padding-left: 20px !important;
+}
+
+.lista-consejos li {
+    display: list-item !important;
+    list-style-type: disc !important;
+    margin-bottom: 12px !important;
+    color: #35d3c6;
+}
