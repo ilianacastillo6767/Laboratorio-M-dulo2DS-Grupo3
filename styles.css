@@ -61,7 +61,6 @@ font-weight: bold;
 a:hover {
 color: #ff9900; /* Cambia el color al pasar el mouse por encima */
 }
-
 /*CONFIGURACION DEL BODY*/
 body {
 /*configura los margenes de la página*/
@@ -122,4 +121,18 @@ color: #18a8eb;
 color: #35d3c6; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-align: center; /* Alinea el contenido al centro del encabezado */
 /* Espacio de relleno interno para el contenido */
+
+.lista-consejos {
+    display: block !important;
+    text-align: left !important;
+    max-width: 600px;
+    margin: 30px auto !important;
+    padding-left: 20px !important;
 }
+
+.lista-consejos li {
+    display: list-item !important;
+    list-style-type: disc !important;
+    margin-bottom: 12px !important;
+    color: #35d3c6;
+} /* <-- ESTILO PARA LOS ELEMENT
