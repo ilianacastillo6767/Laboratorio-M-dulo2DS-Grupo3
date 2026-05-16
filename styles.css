@@ -41,7 +41,7 @@ fondo */
 /* Estilos para los elementos menu*/
 ul {
 list-style-type: none;
-text-align: right;
+text-align:left;
 margin-right: 3rem;
 }
 
