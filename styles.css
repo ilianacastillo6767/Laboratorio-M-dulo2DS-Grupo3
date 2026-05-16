@@ -27,7 +27,7 @@ font-size: 25px; /* Tamaño de fuente del texto del encabezado */
 
 /* Establece el fondo transparente para el menú */
 nav {
-background-color: rgba(83, 43, 4, 0.425);
+background-color: rgba(177, 82, 201, 0.699);
 padding: 20px;
 position: fixed; /* Posiciona el menú en la parte superior de la página */
 top: 0;
