@@ -29,9 +29,9 @@ font-size: 25px; /* Tamaño de fuente del texto del encabezado */
 nav {
 background-color: rgba(255, 255, 255, 0);
 padding: 20px;
-position: left; /* Posiciona el menú en la parte superior de la página */
+position: right; /* Posiciona el menú en la parte superior de la página */
 top: 0;
-left: 20px;
+left: 0;
 width: 100%;
 transition: background-color 0.5s; /* Transición suave para el cambio de color de
 fondo */
@@ -41,7 +41,7 @@ fondo */
 /* Estilos para los elementos menu*/
 ul {
 list-style-type: none; /* Elimina los puntos de la lista */
-text-align:left;
+text-align:right;
 margin-left: 3rem; 
 }
 
