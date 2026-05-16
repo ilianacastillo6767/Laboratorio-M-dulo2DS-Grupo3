@@ -91,17 +91,3 @@ color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad
 text-align: center; /* Alinea el contenido al centro del encabezado */
 font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Esto solo se aplicará a la lista de hábitos, sin tocar el menú */
-.lista-cuidados {
-    display: block !important;
-    padding-left: 20px;       /* Le da espacio a los puntitos */
-    list-style-type: disc;    /* Asegura que aparezcan los puntos de la lista */
-    margin-top: 15px;
-}
-
-.lista-cuidados li {
-    display: list-item !important; /* Fuerza a que se comporten como lista hacia abajo */
-    margin-bottom: 10px;           /* Separa un poquito cada consejo */
-    text-align: left;              /* Alinea el texto a la izquierda */
-}
